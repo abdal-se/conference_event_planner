@@ -3,9 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+.first_page_name_btn {
+  width: 90%;
+  max-width: 500px;
+}
+
 
 .first_page {
   display: flex;
+  padding-top: 80px;
   height: 100vh;
   background-image: url("https://cdn.pixabay.com/photo/2018/07/05/14/45/conference-3518465_1280.jpg");
   background-size: cover;
@@ -92,16 +98,17 @@
   align-items: center;
   justify-content: center;
   gap: 30px;
-  width: 500px;
+  width: 90%;
+  max-width: 500px;
 }
 
 .first_page_name_btn h1 {
-  font-size: 45px;
+  font-size: 28px;
   text-align: center;
 }
 
 .first_page_name_btn p {
-  font-size: 26px;
+  font-size: 18px;
 }
 
 .event-list-container {
@@ -129,3 +136,14 @@
 .budget_sentence {
   font-size: 29px;
 }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }

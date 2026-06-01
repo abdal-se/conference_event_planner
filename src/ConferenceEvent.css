@@ -54,6 +54,7 @@
     margin: 0 10px;
   }
   .main_container{
+    padding: 80px;
     display: flex;    
   }
   .items-information {
@@ -133,6 +134,10 @@
     display: flex;
     flex-direction: row;
   }
+  .main_container {
+  padding-top: 120px;
+}
+
   .meal_item .inner input {
     width: 100px;
     height: 30px;
@@ -265,12 +270,12 @@
   }
   .nav_links{
     display: flex;
-    gap: 170px;
+    gap: 100px;
   }
   .left_navbar{
     width: 60vw;
     display: flex;
-    gap: 180px;
+    gap: 150px;
   
   }
   .nav_links a {
